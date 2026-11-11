@@ -1,0 +1,8 @@
+npm warn EBADENGINE Unsupported engine {
+npm warn EBADENGINE   package: 'idurar-erp-crm@4.1.0',
+npm warn EBADENGINE   required: { node: '20.9.0', npm: '10.2.4' },
+npm warn EBADENGINE   current: { node: 'v20.19.4', npm: '10.8.2' }
+npm warn EBADENGINE }
+npm warn deprecated shortid@2.2.16: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+
+added 384 packages in 13s

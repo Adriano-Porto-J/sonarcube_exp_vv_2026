@@ -1,0 +1,1977 @@
+{
+  "total": 41,
+  "issues": [
+    {
+      "key": "ea26d082-f3c0-4c03-a8bc-f9b256570fe8",
+      "rule": "javascript:S6861",
+      "severity": "CRITICAL",
+      "component": "idurar-erp-crm:frontend/src/router/routes.jsx",
+      "project": "idurar-erp-crm",
+      "line": 28,
+      "hash": "698ed433af4895b5af0f5cb466616473",
+      "textRange": {
+        "startLine": 28,
+        "endLine": 127,
+        "startOffset": 0,
+        "endOffset": 2
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Exporting mutable 'let' binding, use 'const' instead.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "lalami.sdn@gmail.com",
+      "tags": [],
+      "creationDate": "2025-07-27T13:44:04+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "MODULAR",
+      "cleanCodeAttributeCategory": "ADAPTABLE",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        },
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "HIGH"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "b23e7f9b-6389-45d1-a2cc-0c8c7ac445e9",
+      "rule": "javascript:S9383",
+      "severity": "MAJOR",
+      "component": "idurar-erp-crm:backend/src/controllers/middlewaresControllers/createAuthMiddleware/login.js",
+      "project": "idurar-erp-crm",
+      "line": 51,
+      "hash": "918889e9270d3d474b3b3d28b6d86d2c",
+      "textRange": {
+        "startLine": 51,
+        "endLine": 56,
+        "startOffset": 2,
+        "endOffset": 5
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "lalami.sdn@gmail.com",
+      "tags": [
+        "async",
+        "es2017",
+        "type-dependent",
+        "promise"
+      ],
+      "creationDate": "2024-09-29T15:19:55+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "BUG",
+      "scope": "MAIN",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "734fbb7f-c389-4e80-b16b-3c7ebc66d1b3",
+      "rule": "javascript:S5693",
+      "severity": "MAJOR",
+      "component": "idurar-erp-crm:backend/src/middlewares/uploadMiddleware/LocalSingleStorage.js",
+      "project": "idurar-erp-crm",
+      "line": 54,
+      "hash": "73e00b1f737565291d66a9c00db60f5b",
+      "textRange": {
+        "startLine": 54,
+        "endLine": 54,
+        "startOffset": 24,
+        "endOffset": 30
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Make sure the content length limit is safe here.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "lalami.sdn@gmail.com",
+      "tags": [
+        "cwe",
+        "express.js",
+        "former-hotspot"
+      ],
+      "creationDate": "2024-02-20T22:39:34+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "VULNERABILITY",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "TRUSTWORTHY",
+      "cleanCodeAttributeCategory": "RESPONSIBLE",
+      "impacts": [
+        {
+          "softwareQuality": "SECURITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "2eb233db-86d4-4f1c-b266-857bcc6fcc66",
+      "rule": "javascript:S6848",
+      "severity": "MAJOR",
+      "component": "idurar-erp-crm:frontend/src/apps/Navigation/NavigationContainer.jsx",
+      "project": "idurar-erp-crm",
+      "line": 147,
+      "hash": "d90c26198ff23a5c54f81269ceed5c01",
+      "textRange": {
+        "startLine": 147,
+        "endLine": 153,
+        "startOffset": 6,
+        "endOffset": 7
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "lalami.sdn@gmail.com",
+      "tags": [
+        "accessibility",
+        "react"
+      ],
+      "creationDate": "2024-02-20T22:39:34+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        },
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "51d65269-627f-428f-a0d5-59a5b16c0566",
+      "rule": "javascript:S5332",
+      "severity": "MINOR",
+      "component": "idurar-erp-crm:frontend/src/config/serverApiConfig.js",
+      "project": "idurar-erp-crm",
+      "line": 11,
+      "hash": "2125df34ca7f19d1b20b5e48ec021321",
+      "textRange": {
+        "startLine": 11,
+        "endLine": 11,
+        "startOffset": 4,
+        "endOffset": 33
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Using http protocol is insecure. Use https instead.",
+      "effort": "30min",
+      "debt": "30min",
+      "author": "lalami.sdn@gmail.com",
+      "tags": [
+        "cwe",
+        "cryptography",
+        "former-hotspot"
+      ],
+      "creationDate": "2024-02-20T22:39:34+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "VULNERABILITY",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "COMPLETE",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "SECURITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "cb779b6f-aef9-4567-a133-039385a3dd35",
+      "rule": "javascript:S2201",
+      "severity": "MAJOR",
+      "component": "idurar-erp-crm:frontend/src/components/SelectAsync/index.jsx",
+      "project": "idurar-erp-crm",
+      "line": 64,
+      "hash": "c2df6a824758711df62438113a287932",
+      "textRange": {
+        "startLine": 64,
+        "endLine": 70,
+        "startOffset": 4,
+        "endOffset": 6
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Consider using \"forEach\" instead of \"map\" as its return value is not being used here.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "50052356+idurar@users.noreply.github.com",
+      "tags": [
+        "type-dependent"
+      ],
+      "creationDate": "2023-12-21T18:07:47+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "BUG",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "7fa165b0-092b-493f-9474-b9c2ec267984",
+      "rule": "javascript:S7773",
+      "severity": "MINOR",
+      "component": "idurar-erp-crm:frontend/src/redux/adavancedCrud/actions.js",
+      "project": "idurar-erp-crm",
+      "line": 51,
+      "hash": "e8a09951f07c05d701f4197aea025245",
+      "textRange": {
+        "startLine": 51,
+        "endLine": 51,
+        "startOffset": 21,
+        "endOffset": 29
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Prefer `Number.parseInt` over `parseInt`.",
+      "effort": "2min",
+      "debt": "2min",
+      "author": "50052356+idurar@users.noreply.github.com",
+      "tags": [
+        "convention",
+        "es2015",
+        "editable-source"
+      ],
+      "creationDate": "2023-12-21T18:07:47+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        },
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "e4cd89fd-13de-4c78-b51f-fbdce8aee3c4",
+      "rule": "javascript:S7773",
+      "severity": "MINOR",
+      "component": "idurar-erp-crm:frontend/src/redux/adavancedCrud/actions.js",
+      "project": "idurar-erp-crm",
+      "line": 53,
+      "hash": "6b65483dc06d30801a2d8658e6c85f1f",
+      "textRange": {
+        "startLine": 53,
+        "endLine": 53,
+        "startOffset": 19,
+        "endOffset": 27
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Prefer `Number.parseInt` over `parseInt`.",
+      "effort": "2min",
+      "debt": "2min",
+      "author": "50052356+idurar@users.noreply.github.com",
+      "tags": [
+        "convention",
+        "es2015",
+        "editable-source"
+      ],
+      "creationDate": "2023-12-21T18:07:47+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        },
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "b6f7bf9b-fc54-47c9-9979-e45f6dd7a0e6",
+      "rule": "javascript:S1764",
+      "severity": "MAJOR",
+      "component": "idurar-erp-crm:frontend/src/utils/dataStructure.jsx",
+      "project": "idurar-erp-crm",
+      "line": 114,
+      "hash": "98d0afb65b7efb9ca0b7884ccc46cc5e",
+      "textRange": {
+        "startLine": 114,
+        "endLine": 114,
+        "startOffset": 30,
+        "endOffset": 41
+      },
+      "flows": [
+        {
+          "locations": [
+            {
+              "component": "idurar-erp-crm:frontend/src/utils/dataStructure.jsx",
+              "textRange": {
+                "startLine": 114,
+                "endLine": 114,
+                "startOffset": 15,
+                "endOffset": 26
+              },
+              "msgFormattings": []
+            }
+          ]
+        }
+      ],
+      "status": "OPEN",
+      "message": "Correct one of the identical sub-expressions on both sides of operator \"&&\"",
+      "effort": "2min",
+      "debt": "2min",
+      "author": "50052356+idurar@users.noreply.github.com",
+      "tags": [
+        "suspicious"
+      ],
+      "creationDate": "2023-12-21T18:07:47+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "BUG",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "4989f28e-f99d-4172-9df3-3208e5bcce00",
+      "rule": "javascript:S1764",
+      "severity": "MAJOR",
+      "component": "idurar-erp-crm:frontend/src/utils/dataStructure.jsx",
+      "project": "idurar-erp-crm",
+      "line": 143,
+      "hash": "98d0afb65b7efb9ca0b7884ccc46cc5e",
+      "textRange": {
+        "startLine": 143,
+        "endLine": 143,
+        "startOffset": 32,
+        "endOffset": 43
+      },
+      "flows": [
+        {
+          "locations": [
+            {
+              "component": "idurar-erp-crm:frontend/src/utils/dataStructure.jsx",
+              "textRange": {
+                "startLine": 143,
+                "endLine": 143,
+                "startOffset": 17,
+                "endOffset": 28
+              },
+              "msgFormattings": []
+            }
+          ]
+        }
+      ],
+      "status": "OPEN",
+      "message": "Correct one of the identical sub-expressions on both sides of operator \"&&\"",
+      "effort": "2min",
+      "debt": "2min",
+      "author": "50052356+idurar@users.noreply.github.com",
+      "tags": [
+        "suspicious"
+      ],
+      "creationDate": "2023-12-21T18:07:47+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "BUG",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "9a7762e6-508f-4eeb-bba5-64f265470fe0",
+      "rule": "javascript:S1764",
+      "severity": "MAJOR",
+      "component": "idurar-erp-crm:frontend/src/utils/dataStructure.jsx",
+      "project": "idurar-erp-crm",
+      "line": 146,
+      "hash": "e3e6019cc0154a178fd32dbbaba556e4",
+      "textRange": {
+        "startLine": 146,
+        "endLine": 146,
+        "startOffset": 39,
+        "endOffset": 50
+      },
+      "flows": [
+        {
+          "locations": [
+            {
+              "component": "idurar-erp-crm:frontend/src/utils/dataStructure.jsx",
+              "textRange": {
+                "startLine": 146,
+                "endLine": 146,
+                "startOffset": 24,
+                "endOffset": 35
+              },
+              "msgFormattings": []
+            }
+          ]
+        }
+      ],
+      "status": "OPEN",
+      "message": "Correct one of the identical sub-expressions on both sides of operator \"&&\"",
+      "effort": "2min",
+      "debt": "2min",
+      "author": "50052356+idurar@users.noreply.github.com",
+      "tags": [
+        "suspicious"
+      ],
+      "creationDate": "2023-12-21T18:07:47+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "BUG",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "120d46e7-14b4-4ee4-9cdb-4399e47a1ade",
+      "rule": "javascript:S2201",
+      "severity": "MAJOR",
+      "component": "idurar-erp-crm:frontend/src/utils/statusTagColor.js",
+      "project": "idurar-erp-crm",
+      "line": 45,
+      "hash": "f23248ba7073048d8b5789cd7a890ed7",
+      "textRange": {
+        "startLine": 45,
+        "endLine": 49,
+        "startOffset": 2,
+        "endOffset": 4
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Consider using \"forEach\" instead of \"map\" as its return value is not being used here.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "50052356+idurar@users.noreply.github.com",
+      "tags": [
+        "type-dependent"
+      ],
+      "creationDate": "2023-12-21T18:07:47+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "BUG",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "9ccba5af-da51-4e60-a080-c3749bddada3",
+      "rule": "javascript:S3796",
+      "severity": "BLOCKER",
+      "component": "idurar-erp-crm:frontend/src/utils/statusTagColor.js",
+      "project": "idurar-erp-crm",
+      "line": 45,
+      "hash": "f23248ba7073048d8b5789cd7a890ed7",
+      "textRange": {
+        "startLine": 45,
+        "endLine": 45,
+        "startOffset": 15,
+        "endOffset": 17
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Add a \"return\" statement to this callback.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "50052356+idurar@users.noreply.github.com",
+      "tags": [
+        "type-dependent"
+      ],
+      "creationDate": "2023-12-21T18:07:47+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "BUG",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "COMPLETE",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "BLOCKER"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "49342317-dd9a-410b-854d-80f9d4b9278c",
+      "rule": "javascript:S3796",
+      "severity": "BLOCKER",
+      "component": "idurar-erp-crm:frontend/src/components/SelectAsync/index.jsx",
+      "project": "idurar-erp-crm",
+      "line": 64,
+      "hash": "c2df6a824758711df62438113a287932",
+      "textRange": {
+        "startLine": 64,
+        "endLine": 64,
+        "startOffset": 36,
+        "endOffset": 38
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Add a \"return\" statement to this callback.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "50052356+idurar@users.noreply.github.com",
+      "tags": [
+        "type-dependent"
+      ],
+      "creationDate": "2023-12-14T23:48:35+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "BUG",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "COMPLETE",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "BLOCKER"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "0e5f553a-95dc-4ee4-8e60-eafdd414de13",
+      "rule": "javascript:S8786",
+      "severity": "MAJOR",
+      "component": "idurar-erp-crm:backend/src/controllers/middlewaresControllers/createAuthMiddleware/checkAndCorrectURL.js",
+      "project": "idurar-erp-crm",
+      "line": 9,
+      "hash": "ff296c888c54a982e4284c66fe0d789a",
+      "textRange": {
+        "startLine": 9,
+        "endLine": 9,
+        "startOffset": 20,
+        "endOffset": 26
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Simplify this regular expression to reduce its runtime, as it has super-linear performance due to backtracking.",
+      "effort": "20min",
+      "debt": "20min",
+      "author": "50052356+idurar@users.noreply.github.com",
+      "tags": [
+        "regex",
+        "performance"
+      ],
+      "creationDate": "2023-12-08T18:43:10+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "79464438-ba9f-48aa-8cbe-4a76880294e7",
+      "rule": "javascript:S2703",
+      "severity": "BLOCKER",
+      "component": "idurar-erp-crm:backend/src/models/utils/index.js",
+      "project": "idurar-erp-crm",
+      "line": 36,
+      "hash": "3419bfc99ddecc2314415993019b926a",
+      "textRange": {
+        "startLine": 36,
+        "endLine": 36,
+        "startOffset": 2,
+        "endOffset": 16
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Add the \"let\", \"const\" or \"var\" keyword to this declaration of \"controllerName\" to make it explicit.",
+      "effort": "2min",
+      "debt": "2min",
+      "author": "50052356+idurar@users.noreply.github.com",
+      "tags": [
+        "pitfall"
+      ],
+      "creationDate": "2023-11-25T11:36:06+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "BLOCKER"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "54ea0547-a2b9-4566-ac66-496071550071",
+      "rule": "javascript:S7773",
+      "severity": "MINOR",
+      "component": "idurar-erp-crm:backend/src/controllers/coreControllers/settingController/listAll.js",
+      "project": "idurar-erp-crm",
+      "line": 5,
+      "hash": "0c90182f7360204706744c1d27bdbf5a",
+      "textRange": {
+        "startLine": 5,
+        "endLine": 5,
+        "startOffset": 15,
+        "endOffset": 23
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Prefer `Number.parseInt` over `parseInt`.",
+      "effort": "2min",
+      "debt": "2min",
+      "author": "50052356+idurar@users.noreply.github.com",
+      "tags": [
+        "convention",
+        "es2015",
+        "editable-source"
+      ],
+      "creationDate": "2023-11-20T15:34:34+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        },
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "0d01e34a-c1ce-4c15-a426-08ce84714c61",
+      "rule": "javascript:S7737",
+      "severity": "MINOR",
+      "component": "idurar-erp-crm:backend/src/controllers/pdfController/index.js",
+      "project": "idurar-erp-crm",
+      "line": 17,
+      "hash": "87d9299547ca4dec2e91f6cabc67f4b8",
+      "textRange": {
+        "startLine": 17,
+        "endLine": 17,
+        "startOffset": 2,
+        "endOffset": 6
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Do not use an object literal as default for parameter `info`.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "50052356+idurar@users.noreply.github.com",
+      "tags": [
+        "editable-source",
+        "confusing",
+        "pitfall"
+      ],
+      "creationDate": "2023-11-19T20:23:48+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        },
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "6e80e05a-77c5-4b7a-a0b9-0f1e4b94345b",
+      "rule": "javascript:S2703",
+      "severity": "BLOCKER",
+      "component": "idurar-erp-crm:backend/src/handlers/downloadHandler/downloadPdf.js",
+      "project": "idurar-erp-crm",
+      "line": 4,
+      "hash": "e22534d42d310f7105d1cae7c24ac50d",
+      "textRange": {
+        "startLine": 4,
+        "endLine": 4,
+        "startOffset": 17,
+        "endOffset": 28
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Add the \"let\", \"const\" or \"var\" keyword to this declaration of \"downloadPdf\" to make it explicit.",
+      "effort": "2min",
+      "debt": "2min",
+      "author": "50052356+idurar@users.noreply.github.com",
+      "tags": [
+        "pitfall"
+      ],
+      "creationDate": "2023-11-17T22:32:19+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "BLOCKER"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "2e0feb45-fd4f-4a51-905d-c5dd0897d18d",
+      "rule": "javascript:S6848",
+      "severity": "MAJOR",
+      "component": "idurar-erp-crm:frontend/src/apps/Header/HeaderContainer.jsx",
+      "project": "idurar-erp-crm",
+      "line": 26,
+      "hash": "813fee0e47e3d1976dc13f4032426550",
+      "textRange": {
+        "startLine": 26,
+        "endLine": 26,
+        "startOffset": 6,
+        "endOffset": 76
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "50052356+idurar@users.noreply.github.com",
+      "tags": [
+        "accessibility",
+        "react"
+      ],
+      "creationDate": "2023-10-30T15:35:29+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        },
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "ef1224e7-3e69-492b-ad1e-95ccaa6eeb0c",
+      "rule": "javascript:S7773",
+      "severity": "MINOR",
+      "component": "idurar-erp-crm:backend/src/controllers/appControllers/invoiceController/paginatedList.js",
+      "project": "idurar-erp-crm",
+      "line": 7,
+      "hash": "533e1c75baff9650d916f1e328638c90",
+      "textRange": {
+        "startLine": 7,
+        "endLine": 7,
+        "startOffset": 16,
+        "endOffset": 24
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Prefer `Number.parseInt` over `parseInt`.",
+      "effort": "2min",
+      "debt": "2min",
+      "author": "50052356+idurar@users.noreply.github.com",
+      "tags": [
+        "convention",
+        "es2015",
+        "editable-source"
+      ],
+      "creationDate": "2023-10-26T13:22:40+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        },
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "c2410b5e-f3b3-4734-825a-c75c06fb9b69",
+      "rule": "javascript:S5693",
+      "severity": "MAJOR",
+      "component": "idurar-erp-crm:backend/src/middlewares/uploadMiddleware/singleStorageUpload.js",
+      "project": "idurar-erp-crm",
+      "line": 54,
+      "hash": "73e00b1f737565291d66a9c00db60f5b",
+      "textRange": {
+        "startLine": 54,
+        "endLine": 54,
+        "startOffset": 24,
+        "endOffset": 30
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Make sure the content length limit is safe here.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "50052356+idurar@users.noreply.github.com",
+      "tags": [
+        "cwe",
+        "express.js",
+        "former-hotspot"
+      ],
+      "creationDate": "2023-10-26T01:11:14+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "VULNERABILITY",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "TRUSTWORTHY",
+      "cleanCodeAttributeCategory": "RESPONSIBLE",
+      "impacts": [
+        {
+          "softwareQuality": "SECURITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "4154ea3d-b9ae-46fe-82bf-26d5930841a0",
+      "rule": "javascript:S8786",
+      "severity": "MAJOR",
+      "component": "idurar-erp-crm:backend/src/handlers/errorHandlers.js",
+      "project": "idurar-erp-crm",
+      "line": 56,
+      "hash": "e05ea84f3ae993237cf99e76b615740c",
+      "textRange": {
+        "startLine": 56,
+        "endLine": 56,
+        "startOffset": 42,
+        "endOffset": 67
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Simplify this regular expression to reduce its runtime, as it has super-linear performance due to backtracking.",
+      "effort": "20min",
+      "debt": "20min",
+      "author": "50052356+idurar@users.noreply.github.com",
+      "tags": [
+        "regex",
+        "performance"
+      ],
+      "creationDate": "2023-10-25T21:20:41+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "fe2af148-2d76-41fa-b7d7-0f3844f14832",
+      "rule": "javascript:S9383",
+      "severity": "MAJOR",
+      "component": "idurar-erp-crm:frontend/src/components/MultiStepSelectAsync/index.jsx",
+      "project": "idurar-erp-crm",
+      "line": 57,
+      "hash": "ae41048d5a84781f70523b3a0c12c85c",
+      "textRange": {
+        "startLine": 57,
+        "endLine": 57,
+        "startOffset": 4,
+        "endOffset": 16
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "116145571+themarufsharifi@users.noreply.github.com",
+      "tags": [
+        "async",
+        "es2017",
+        "type-dependent",
+        "promise"
+      ],
+      "creationDate": "2023-09-19T19:28:35+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "BUG",
+      "scope": "MAIN",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "80911e01-03ac-4794-b679-ecf9e91c2b81",
+      "rule": "javascript:S9383",
+      "severity": "MAJOR",
+      "component": "idurar-erp-crm:backend/src/setup/setup.js",
+      "project": "idurar-erp-crm",
+      "line": 78,
+      "hash": "9a7495a44fd305711e84cd7fcfcec82e",
+      "textRange": {
+        "startLine": 78,
+        "endLine": 78,
+        "startOffset": 0,
+        "endOffset": 11
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "136928179+salahlalami@users.noreply.github.com",
+      "tags": [
+        "async",
+        "es2017",
+        "type-dependent",
+        "promise"
+      ],
+      "creationDate": "2023-09-05T13:41:02+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "BUG",
+      "scope": "MAIN",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "afc6f0e0-b5c8-411b-8ec0-bbfd19faedac",
+      "rule": "javascript:S2201",
+      "severity": "MAJOR",
+      "component": "idurar-erp-crm:frontend/src/modules/ErpPanelModule/CreateItem.jsx",
+      "project": "idurar-erp-crm",
+      "line": 94,
+      "hash": "47fde225bb4ac4dc2373481c5a397265",
+      "textRange": {
+        "startLine": 94,
+        "endLine": 96,
+        "startOffset": 8,
+        "endOffset": 10
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Consider using \"forEach\" instead of \"map\" as its return value is not being used here.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "brunovjk@gmail.com",
+      "tags": [
+        "type-dependent"
+      ],
+      "creationDate": "2023-09-04T18:16:37+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "BUG",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "fe072cc8-b41f-45b0-ada1-6a28cfd4b33f",
+      "rule": "javascript:S7773",
+      "severity": "MINOR",
+      "component": "idurar-erp-crm:backend/src/controllers/middlewaresControllers/createCRUDController/paginatedList.js",
+      "project": "idurar-erp-crm",
+      "line": 3,
+      "hash": "533e1c75baff9650d916f1e328638c90",
+      "textRange": {
+        "startLine": 3,
+        "endLine": 3,
+        "startOffset": 16,
+        "endOffset": 24
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Prefer `Number.parseInt` over `parseInt`.",
+      "effort": "2min",
+      "debt": "2min",
+      "author": "136928179+salahlalami@users.noreply.github.com",
+      "tags": [
+        "convention",
+        "es2015",
+        "editable-source"
+      ],
+      "creationDate": "2023-09-03T23:28:39+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        },
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "2448c4e2-e361-4cb6-a520-fc44338456c8",
+      "rule": "javascript:S3796",
+      "severity": "BLOCKER",
+      "component": "idurar-erp-crm:frontend/src/modules/ErpPanelModule/CreateItem.jsx",
+      "project": "idurar-erp-crm",
+      "line": 94,
+      "hash": "47fde225bb4ac4dc2373481c5a397265",
+      "textRange": {
+        "startLine": 94,
+        "endLine": 94,
+        "startOffset": 27,
+        "endOffset": 29
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Add a \"return\" statement to this callback.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "136928179+salahlalami@users.noreply.github.com",
+      "tags": [
+        "type-dependent"
+      ],
+      "creationDate": "2023-09-02T13:16:12+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "BUG",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "COMPLETE",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "BLOCKER"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "048ccd6c-6c76-4b23-94a6-22faf1e92b84",
+      "rule": "javascript:S9383",
+      "severity": "MAJOR",
+      "component": "idurar-erp-crm:backend/src/server.js",
+      "project": "idurar-erp-crm",
+      "line": 17,
+      "hash": "c76db6c2b5fbeb8ba127633a9cd3f0f2",
+      "textRange": {
+        "startLine": 17,
+        "endLine": 17,
+        "startOffset": 0,
+        "endOffset": 39
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "50052356+idurar@users.noreply.github.com",
+      "tags": [
+        "async",
+        "es2017",
+        "type-dependent",
+        "promise"
+      ],
+      "creationDate": "2022-05-16T20:22:12+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "BUG",
+      "scope": "MAIN",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "600dc45e-5244-4d6b-a493-0c226a2735cf",
+      "rule": "javascript:S7773",
+      "severity": "MINOR",
+      "component": "idurar-erp-crm:backend/src/server.js",
+      "project": "idurar-erp-crm",
+      "line": 7,
+      "hash": "95749ea42228fc67b5691d580ab9f573",
+      "textRange": {
+        "startLine": 7,
+        "endLine": 7,
+        "startOffset": 60,
+        "endOffset": 70
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Prefer `Number.parseFloat` over `parseFloat`.",
+      "effort": "2min",
+      "debt": "2min",
+      "author": "50052356+idurar@users.noreply.github.com",
+      "tags": [
+        "convention",
+        "es2015",
+        "editable-source"
+      ],
+      "creationDate": "2022-01-25T10:58:50+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        },
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "93690f7f-2928-44dd-9267-06d27a8b3ba2",
+      "rule": "javascript:S7737",
+      "severity": "MINOR",
+      "component": "idurar-erp-crm:frontend/src/request/successHandler.js",
+      "project": "idurar-erp-crm",
+      "line": 5,
+      "hash": "004dde0aa83df324ff01d2669ac5f1c1",
+      "textRange": {
+        "startLine": 5,
+        "endLine": 5,
+        "startOffset": 34,
+        "endOffset": 41
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Do not use an object literal as default for parameter `options`.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "50052356+idurar@users.noreply.github.com",
+      "tags": [
+        "editable-source",
+        "confusing",
+        "pitfall"
+      ],
+      "creationDate": "2022-01-25T10:58:50+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        },
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "671ed689-1b2d-4fb7-8d0c-ef0e8c2541e9",
+      "rule": "javascript:S9383",
+      "severity": "MAJOR",
+      "component": "idurar-erp-crm:backend/src/setup/reset.js",
+      "project": "idurar-erp-crm",
+      "line": 5,
+      "hash": "c76db6c2b5fbeb8ba127633a9cd3f0f2",
+      "textRange": {
+        "startLine": 5,
+        "endLine": 5,
+        "startOffset": 0,
+        "endOffset": 39
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "50052356+idurar@users.noreply.github.com",
+      "tags": [
+        "async",
+        "es2017",
+        "type-dependent",
+        "promise"
+      ],
+      "creationDate": "2022-01-21T01:27:57+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "BUG",
+      "scope": "MAIN",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "8646951c-82ba-4507-8cc4-e2c4a16f35c1",
+      "rule": "javascript:S9383",
+      "severity": "MAJOR",
+      "component": "idurar-erp-crm:backend/src/setup/reset.js",
+      "project": "idurar-erp-crm",
+      "line": 25,
+      "hash": "5331399e7b5e5d8d25aec852ececabb2",
+      "textRange": {
+        "startLine": 25,
+        "endLine": 25,
+        "startOffset": 0,
+        "endOffset": 13
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "50052356+idurar@users.noreply.github.com",
+      "tags": [
+        "async",
+        "es2017",
+        "type-dependent",
+        "promise"
+      ],
+      "creationDate": "2022-01-21T01:27:57+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "BUG",
+      "scope": "MAIN",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "93d060da-f8fa-4732-96c7-fdd7b4eac1e5",
+      "rule": "javascript:S9383",
+      "severity": "MAJOR",
+      "component": "idurar-erp-crm:backend/src/setup/setup.js",
+      "project": "idurar-erp-crm",
+      "line": 8,
+      "hash": "c76db6c2b5fbeb8ba127633a9cd3f0f2",
+      "textRange": {
+        "startLine": 8,
+        "endLine": 8,
+        "startOffset": 0,
+        "endOffset": 39
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "lalami.sdn@gmail.com",
+      "tags": [
+        "async",
+        "es2017",
+        "type-dependent",
+        "promise"
+      ],
+      "creationDate": "2021-09-19T16:34:58+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "BUG",
+      "scope": "MAIN",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "e5034128-ae26-44e1-97ab-e5388a3dadaf",
+      "rule": "javascript:S5689",
+      "severity": "MINOR",
+      "component": "idurar-erp-crm:backend/src/app.js",
+      "project": "idurar-erp-crm",
+      "line": 19,
+      "hash": "4af77bcf43147b78489dd9c4043bfe01",
+      "textRange": {
+        "startLine": 19,
+        "endLine": 19,
+        "startOffset": 6,
+        "endOffset": 9
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "This framework implicitly discloses version information by default. Make sure it is safe here.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "lalami.sdn@gmail.com",
+      "tags": [
+        "cwe",
+        "express.js",
+        "former-hotspot"
+      ],
+      "creationDate": "2021-09-16T09:35:23+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "VULNERABILITY",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "TRUSTWORTHY",
+      "cleanCodeAttributeCategory": "RESPONSIBLE",
+      "impacts": [
+        {
+          "softwareQuality": "SECURITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "adf9de21-df4f-4aa4-b965-6a542835b94e",
+      "rule": "javascript:S9383",
+      "severity": "MAJOR",
+      "component": "idurar-erp-crm:frontend/src/hooks/useFetch.jsx",
+      "project": "idurar-erp-crm",
+      "line": 22,
+      "hash": "ae41048d5a84781f70523b3a0c12c85c",
+      "textRange": {
+        "startLine": 22,
+        "endLine": 22,
+        "startOffset": 4,
+        "endOffset": 16
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "lalami.sdn@gmail.com",
+      "tags": [
+        "async",
+        "es2017",
+        "type-dependent",
+        "promise"
+      ],
+      "creationDate": "2021-06-01T14:14:07+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "BUG",
+      "scope": "MAIN",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "ed2617a5-4e7f-4830-bf60-a08718ae1886",
+      "rule": "javascript:S6848",
+      "severity": "MAJOR",
+      "component": "idurar-erp-crm:frontend/src/components/CollapseBox/index.jsx",
+      "project": "idurar-erp-crm",
+      "line": 6,
+      "hash": "f452bc9b302cdeed512deabfa31a8e59",
+      "textRange": {
+        "startLine": 6,
+        "endLine": 6,
+        "startOffset": 4,
+        "endOffset": 58
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "lalami.sdn@gmail.com",
+      "tags": [
+        "accessibility",
+        "react"
+      ],
+      "creationDate": "2021-05-14T23:49:20+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        },
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "b833508e-a7af-48a9-949e-241898998f8d",
+      "rule": "javascript:S7773",
+      "severity": "MINOR",
+      "component": "idurar-erp-crm:frontend/src/redux/erp/actions.js",
+      "project": "idurar-erp-crm",
+      "line": 51,
+      "hash": "e8a09951f07c05d701f4197aea025245",
+      "textRange": {
+        "startLine": 51,
+        "endLine": 51,
+        "startOffset": 21,
+        "endOffset": 29
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Prefer `Number.parseInt` over `parseInt`.",
+      "effort": "2min",
+      "debt": "2min",
+      "author": "lalami.sdn@gmail.com",
+      "tags": [
+        "convention",
+        "es2015",
+        "editable-source"
+      ],
+      "creationDate": "2021-05-07T09:24:20+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        },
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "ff02fbcf-7b1b-4787-a622-3bce929b2039",
+      "rule": "javascript:S7773",
+      "severity": "MINOR",
+      "component": "idurar-erp-crm:frontend/src/redux/erp/actions.js",
+      "project": "idurar-erp-crm",
+      "line": 53,
+      "hash": "6b65483dc06d30801a2d8658e6c85f1f",
+      "textRange": {
+        "startLine": 53,
+        "endLine": 53,
+        "startOffset": 19,
+        "endOffset": 27
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Prefer `Number.parseInt` over `parseInt`.",
+      "effort": "2min",
+      "debt": "2min",
+      "author": "lalami.sdn@gmail.com",
+      "tags": [
+        "convention",
+        "es2015",
+        "editable-source"
+      ],
+      "creationDate": "2021-05-07T09:24:20+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        },
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "b611755c-0381-4ed1-8900-d3ce46d76c36",
+      "rule": "javascript:S7773",
+      "severity": "MINOR",
+      "component": "idurar-erp-crm:frontend/src/redux/crud/actions.js",
+      "project": "idurar-erp-crm",
+      "line": 53,
+      "hash": "e8a09951f07c05d701f4197aea025245",
+      "textRange": {
+        "startLine": 53,
+        "endLine": 53,
+        "startOffset": 21,
+        "endOffset": 29
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Prefer `Number.parseInt` over `parseInt`.",
+      "effort": "2min",
+      "debt": "2min",
+      "author": "lalami.sdn@gmail.com",
+      "tags": [
+        "convention",
+        "es2015",
+        "editable-source"
+      ],
+      "creationDate": "2021-05-05T07:14:33+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        },
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "8f4e371a-7ded-49f2-820a-047394529d24",
+      "rule": "javascript:S7773",
+      "severity": "MINOR",
+      "component": "idurar-erp-crm:frontend/src/redux/crud/actions.js",
+      "project": "idurar-erp-crm",
+      "line": 55,
+      "hash": "6b65483dc06d30801a2d8658e6c85f1f",
+      "textRange": {
+        "startLine": 55,
+        "endLine": 55,
+        "startOffset": 19,
+        "endOffset": 27
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Prefer `Number.parseInt` over `parseInt`.",
+      "effort": "2min",
+      "debt": "2min",
+      "author": "lalami.sdn@gmail.com",
+      "tags": [
+        "convention",
+        "es2015",
+        "editable-source"
+      ],
+      "creationDate": "2021-05-05T07:14:33+0000",
+      "updateDate": "2026-11-11T00:15:30+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        },
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    }
+  ]
+}

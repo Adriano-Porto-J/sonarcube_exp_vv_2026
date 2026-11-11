@@ -1,0 +1,22 @@
+
+> idurar-erp-crm@4.1.0 setup
+> node src/setup/setup.js
+
+👍 Admin created : Done!
+👍 Settings created : Done!
+
+🚫 Error! The Error info is below
+Error: Cannot find module '../models/appModels/PaymentMode'
+Require stack:
+- /home/adrianounix/personal/ufcg/p8_vv/sonarqube-experiment/projects/idurar-erp-crm/backend/src/setup/setup.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Module._load (node:internal/modules/cjs/loader:1043:27)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at require (node:internal/modules/helpers:182:18)
+    at setupApp (/home/adrianounix/personal/ufcg/p8_vv/sonarqube-experiment/projects/idurar-erp-crm/backend/src/setup/setup.js:54:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/adrianounix/personal/ufcg/p8_vv/sonarqube-experiment/projects/idurar-erp-crm/backend/src/setup/setup.js'
+  ]
+}

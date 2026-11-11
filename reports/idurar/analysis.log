@@ -1,0 +1,124 @@
+00:15:26.541 INFO  Scanner configuration file: /opt/sonar-scanner/conf/sonar-scanner.properties
+00:15:26.543 INFO  Project root configuration file: /usr/src/sonar-project.properties
+00:15:26.555 INFO  SonarScanner CLI 8.4.0.16527
+00:15:26.562 INFO  Linux 6.6.87.1-microsoft-standard-WSL2 amd64
+00:15:27.260 INFO  Communicating with SonarQube Community Build 26.11.0.134175
+00:15:27.261 INFO  JRE provisioning: os[linux], arch[x86_64]
+00:15:29.191 INFO  Starting SonarScanner Engine...
+00:15:29.192 INFO  Java 21.0.13 Eclipse Adoptium (64-bit)
+00:15:29.851 INFO  Load global settings
+00:15:29.947 INFO  Load global settings (done) | time=95ms
+00:15:29.949 INFO  Server id: 147B411E-AaHH9L2FcRZZVOHxilbr
+00:15:30.195 INFO  Loading required plugins
+00:15:30.196 INFO  Load plugins index
+00:15:30.246 INFO  Load plugins index (done) | time=48ms
+00:15:30.246 INFO  Load/download plugins
+00:15:30.469 INFO  Load/download plugins (done) | time=222ms
+00:15:30.717 INFO  Load project settings for component key: 'idurar-erp-crm'
+00:15:30.728 INFO  Failed to load settings with NOT_FOUND error, which can happen if the project does not exist yet
+00:15:30.737 INFO  Process project properties
+00:15:30.747 INFO  Process project properties (done) | time=10ms
+00:15:30.754 INFO  Project key: idurar-erp-crm
+00:15:30.755 INFO  Base dir: /usr/src
+00:15:30.755 INFO  Working dir: /tmp/.scannerwork
+00:15:30.849 INFO  Load quality profiles
+00:15:30.909 INFO  Load quality profiles (done) | time=59ms
+00:15:30.934 INFO  Load active rules
+00:15:31.116 INFO  Load active rules (done) | time=182ms
+00:15:31.121 INFO  Load analysis cache
+00:15:31.129 INFO  Load analysis cache (404) | time=7ms
+00:15:31.198 INFO  Preprocessing files...
+00:15:31.363 INFO  3 languages detected in 374 preprocessed files (done) | time=165ms
+00:15:31.363 INFO  0 files ignored because of inclusion/exclusion patterns
+00:15:31.365 INFO  0 files ignored because of scm ignore settings
+00:15:31.365 INFO  Loading plugins for detected languages
+00:15:31.365 INFO  Load/download plugins
+00:15:32.041 INFO  Load/download plugins (done) | time=676ms
+00:15:32.138 INFO  Load project repositories
+00:15:32.143 INFO  Load project repositories (done) | time=6ms
+00:15:32.165 INFO  Indexing files...
+00:15:32.166 INFO  Project configuration:
+00:15:32.166 INFO    Excluded sources: **/node_modules/**, **/dist/**, **/build/**, **/coverage/**, **/*.min.js, **/vendor/**, **/.git/**
+00:15:32.194 INFO  374 files indexed (done) | time=28ms
+00:15:32.194 INFO  Quality profile for css: Sonar way core
+00:15:32.195 INFO  Quality profile for js: Sonar way core
+00:15:32.195 INFO  Quality profile for json: Sonar way comprehensive
+00:15:32.195 INFO  ------------- Run sensors on module IDURAR ERP CRM
+00:15:32.218 INFO  Load metrics repository
+00:15:32.238 INFO  Load metrics repository (done) | time=20ms
+00:15:32.464 INFO  Reflections took 45 ms to scan 1 urls, producing 30 keys and 313 values
+00:15:32.531 INFO  Sensor IaC YAML File Type Classification Sensor [iac]
+00:15:32.548 INFO  Sensor IaC YAML File Type Classification Sensor [iac] (done) | time=16ms
+00:15:32.549 INFO  Sensor IaC CloudFormation Sensor [iac]
+00:15:32.549 INFO  There are no files to be analyzed for the CloudFormation language
+00:15:32.549 INFO  Sensor IaC CloudFormation Sensor [iac] (done) | time=0ms
+00:15:32.549 INFO  Sensor IaC cfn-lint report Sensor [iac]
+00:15:32.549 INFO  Sensor IaC cfn-lint report Sensor [iac] (done) | time=0ms
+00:15:32.549 INFO  Sensor IaC hadolint report Sensor [iac]
+00:15:32.549 INFO  Sensor IaC hadolint report Sensor [iac] (done) | time=0ms
+00:15:32.550 INFO  Sensor IaC Azure Resource Manager Sensor [iac]
+00:15:32.550 INFO  There are no files to be analyzed for the Azure Resource Manager language
+00:15:32.550 INFO  Sensor IaC Azure Resource Manager Sensor [iac] (done) | time=0ms
+00:15:32.550 INFO  Sensor Java Config Sensor [iac]
+00:15:32.550 INFO  There are no files to be analyzed for the Java language
+00:15:32.550 INFO  Sensor Java Config Sensor [iac] (done) | time=0ms
+00:15:32.550 INFO  Sensor IaC Docker Sensor [iac]
+00:15:32.568 INFO  There are no files to be analyzed for the Docker language
+00:15:32.568 INFO  Sensor IaC Docker Sensor [iac] (done) | time=17ms
+00:15:32.568 INFO  Sensor HTML [web]
+00:15:32.575 INFO  Sensor HTML [web] (done) | time=7ms
+00:15:32.575 INFO  Sensor TextAndSecretsSensor [text]
+00:15:32.596 INFO  Available processors: 16
+00:15:32.597 INFO  Using 16 threads for analysis.
+00:15:32.839 INFO  The property "sonar.tests" is not set. To improve the analysis accuracy, we categorize a file as a test file if any of the following is true:
+  * The filename starts with "test"
+  * The filename contains "test." or "tests."
+  * Any directory in the file path is named: "doc", "docs", "test", "tests", "mock" or "mocks"
+  * Any directory in the file path has a name ending in "test" or "tests"
+
+00:15:32.860 INFO  Start fetching files for the text and secrets analysis
+00:15:32.865 INFO  Using Git CLI to retrieve dirty files
+00:15:32.875 INFO  Retrieving language associated files and files included via "sonar.text.inclusions" that are tracked by git
+00:15:32.877 INFO  Starting the text and secrets analysis
+00:15:32.878 INFO  348 source files to be analyzed for the text and secrets analysis
+00:15:33.351 INFO  348/348 source files have been analyzed for the text and secrets analysis
+00:15:33.354 INFO  Sensor TextAndSecretsSensor [text] (done) | time=778ms
+00:15:33.357 INFO  ------------- Run sensors on project
+00:15:33.495 INFO  Sensor JavaScript/TypeScript/CSS analysis [javascript]
+00:15:33.682 INFO  Detected os: Linux arch: amd64 alpine: false. Platform: LINUX_X64
+00:15:33.682 INFO  Deploy location /opt/sonar-scanner/.sonar/js/node-runtime, tagetRuntime: /opt/sonar-scanner/.sonar/js/node-runtime/node,  version: /opt/sonar-scanner/.sonar/js/node-runtime/version.txt
+00:15:36.073 INFO  Using embedded Node.js runtime.
+00:15:36.073 INFO  Using Node.js executable: '/opt/sonar-scanner/.sonar/js/node-runtime/node'.
+00:15:37.749 INFO  Memory configuration: OS (15906 MB), Node.js (4288 MB).
+00:15:37.757 INFO  gRPC analyze-project server listening on 127.0.0.1:44805
+00:15:37.879 INFO  Plugin version: [14.3.0.46350]
+00:15:48.617 INFO  Found 0 tsconfig.json file(s): []
+00:15:48.618 INFO  339 source files to be analyzed
+00:15:48.618 INFO  Analyzing 327 file(s) using default options [lib: lib.es2023.d.ts, lib.dom.d.ts]
+00:15:48.619 INFO  339/339 source files have been analyzed
+00:15:48.629 INFO  Hit the cache for 0 out of 327
+00:15:48.630 INFO  Miss the cache for 327 out of 327: ANALYSIS_MODE_INELIGIBLE [327/327]
+00:15:48.630 INFO  Sensor JavaScript/TypeScript/CSS analysis [javascript] (done) | time=15135ms
+00:15:48.630 INFO  Sensor IaC Project Sensor [iac]
+00:15:48.632 INFO  Sensor IaC Project Sensor [iac] (done) | time=1ms
+00:15:48.633 INFO  Sensor Zero Coverage Sensor
+00:15:48.680 INFO  Sensor Zero Coverage Sensor (done) | time=47ms
+00:15:48.681 INFO  ------------- Gather SCA dependencies on project
+00:15:48.686 INFO  Dependency analysis skipped
+00:15:48.690 INFO  SCM Publisher SCM provider for this project is: git
+00:15:48.692 INFO  SCM Publisher 338 source files to be analyzed
+00:15:50.295 INFO  SCM Publisher 338/338 source files have been analyzed (done) | time=1602ms
+00:15:50.316 INFO  CPD Executor 74 files had no CPD blocks
+00:15:50.317 INFO  CPD Executor Calculating CPD for 265 files
+00:15:50.467 INFO  CPD Executor CPD calculation finished (done) | time=151ms
+00:15:50.475 INFO  SCM revision ID 'e935dec13cf8b6082a7e7fc4736669e5151a80a3'
+00:15:50.708 INFO  Analysis report generated in 219ms, dir size=2.1 MB
+00:15:51.138 INFO  Analysis report compressed in 429ms, zip size=1.5 MB
+00:15:51.541 INFO  Analysis report uploaded in 402ms
+00:15:51.542 INFO  ANALYSIS SUCCESSFUL, you can find the results at: http://sonarqube-experiment:9000/dashboard?id=idurar-erp-crm
+00:15:51.542 INFO  Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+00:15:51.542 INFO  More about the report processing at http://sonarqube-experiment:9000/api/ce/task?id=684aba2d-b26d-4384-aada-57b94c4802d7
+00:15:51.831 INFO  Analysis total time: 22.603 s
+00:15:51.833 INFO  SonarScanner Engine completed successfully
+00:15:51.867 INFO  EXECUTION SUCCESS
+00:15:51.868 INFO  Total time: 25.329s

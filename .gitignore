@@ -1,0 +1,11 @@
+projects/*
+!projects/.gitkeep
+
+**/.env
+**/.env.local
+**/node_modules/
+
+logs/analysis/sonar.token
+logs/analysis/sonar.admin-password
+
+sonarqube/data/

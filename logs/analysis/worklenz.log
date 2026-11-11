@@ -1,0 +1,142 @@
+00:16:22.981 INFO  Scanner configuration file: /opt/sonar-scanner/conf/sonar-scanner.properties
+00:16:22.983 INFO  Project root configuration file: /usr/src/sonar-project.properties
+00:16:22.994 INFO  SonarScanner CLI 8.4.0.16527
+00:16:22.999 INFO  Linux 6.6.87.1-microsoft-standard-WSL2 amd64
+00:16:23.627 INFO  Communicating with SonarQube Community Build 26.11.0.134175
+00:16:23.627 INFO  JRE provisioning: os[linux], arch[x86_64]
+00:16:25.459 INFO  Starting SonarScanner Engine...
+00:16:25.459 INFO  Java 21.0.13 Eclipse Adoptium (64-bit)
+00:16:26.088 INFO  Load global settings
+00:16:26.207 INFO  Load global settings (done) | time=118ms
+00:16:26.209 INFO  Server id: 147B411E-AaHH9L2FcRZZVOHxilbr
+00:16:26.444 INFO  Loading required plugins
+00:16:26.445 INFO  Load plugins index
+00:16:26.461 INFO  Load plugins index (done) | time=14ms
+00:16:26.461 INFO  Load/download plugins
+00:16:26.701 INFO  Load/download plugins (done) | time=240ms
+00:16:26.936 INFO  Load project settings for component key: 'worklenz'
+00:16:26.945 INFO  Failed to load settings with NOT_FOUND error, which can happen if the project does not exist yet
+00:16:26.952 INFO  Process project properties
+00:16:26.965 INFO  Process project properties (done) | time=12ms
+00:16:26.973 INFO  Project key: worklenz
+00:16:26.973 INFO  Base dir: /usr/src
+00:16:26.973 INFO  Working dir: /tmp/.scannerwork
+00:16:27.065 INFO  Load quality profiles
+00:16:27.124 INFO  Load quality profiles (done) | time=58ms
+00:16:27.146 INFO  Load active rules
+00:16:27.705 INFO  Load active rules (done) | time=559ms
+00:16:27.712 INFO  Load analysis cache
+00:16:27.719 INFO  Load analysis cache (404) | time=7ms
+00:16:28.378 INFO  Preprocessing files...
+00:16:29.347 INFO  5 languages detected in 5345 preprocessed files (done) | time=967ms
+00:16:29.348 INFO  241 files ignored because of inclusion/exclusion patterns
+00:16:29.348 INFO  3 directories skipped because of exclusion patterns (content not counted)
+00:16:29.348 INFO  0 files ignored because of scm ignore settings
+00:16:29.350 INFO  Loading plugins for detected languages
+00:16:29.350 INFO  Load/download plugins
+00:16:30.032 INFO  Load/download plugins (done) | time=682ms
+00:16:30.180 INFO  Load project repositories
+00:16:30.186 INFO  Load project repositories (done) | time=7ms
+00:16:30.209 INFO  Indexing files...
+00:16:30.210 INFO  Project configuration:
+00:16:30.210 INFO    Excluded sources: **/node_modules/**, **/dist/**, **/build/**, **/coverage/**, **/*.min.js, **/vendor/**, **/.git/**, **/src/tests/**, **/src/test/**, **/*.test.ts, **/*.test.tsx, **/*.spec.ts, **/*.spec.tsx
+00:16:30.211 INFO    Included tests: **/*.test.ts, **/*.test.tsx, **/*.spec.ts, **/*.spec.tsx
+00:16:30.398 INFO  5338 files indexed (done) | time=189ms
+00:16:30.399 INFO  Quality profile for css: Sonar way core
+00:16:30.400 INFO  Quality profile for js: Sonar way core
+00:16:30.400 INFO  Quality profile for json: Sonar way comprehensive
+00:16:30.400 INFO  Quality profile for ts: Sonar way core
+00:16:30.400 INFO  Quality profile for yaml: Sonar way comprehensive
+00:16:30.400 INFO  ------------- Run sensors on module Worklenz
+00:16:30.431 INFO  Load metrics repository
+00:16:30.463 INFO  Load metrics repository (done) | time=31ms
+00:16:30.763 INFO  Reflections took 51 ms to scan 1 urls, producing 30 keys and 313 values
+00:16:30.852 INFO  Sensor IaC YAML File Type Classification Sensor [iac]
+00:16:31.097 INFO  Sensor IaC YAML File Type Classification Sensor [iac] (done) | time=245ms
+00:16:31.097 INFO  Sensor IaC CloudFormation Sensor [iac]
+00:16:31.098 INFO  There are no files to be analyzed for the CloudFormation language
+00:16:31.098 INFO  Sensor IaC CloudFormation Sensor [iac] (done) | time=0ms
+00:16:31.098 INFO  Sensor IaC cfn-lint report Sensor [iac]
+00:16:31.099 INFO  Sensor IaC cfn-lint report Sensor [iac] (done) | time=1ms
+00:16:31.099 INFO  Sensor IaC Kustomization Sensor [iac]
+00:16:31.100 INFO  Sensor IaC Kustomization Sensor [iac] (done) | time=0ms
+00:16:31.100 INFO  Sensor IaC hadolint report Sensor [iac]
+00:16:31.100 INFO  Sensor IaC hadolint report Sensor [iac] (done) | time=0ms
+00:16:31.100 INFO  Sensor IaC Azure Resource Manager Sensor [iac]
+00:16:31.103 INFO  There are no files to be analyzed for the Azure Resource Manager language
+00:16:31.103 INFO  Sensor IaC Azure Resource Manager Sensor [iac] (done) | time=2ms
+00:16:31.103 INFO  Sensor Java Config Sensor [iac]
+00:16:31.103 INFO  There are no files to be analyzed for the Java language
+00:16:31.103 INFO  Sensor Java Config Sensor [iac] (done) | time=0ms
+00:16:31.104 INFO  Sensor IaC Docker Sensor [iac]
+00:16:31.161 INFO  There are no files to be analyzed for the Docker language
+00:16:31.161 INFO  Sensor IaC Docker Sensor [iac] (done) | time=58ms
+00:16:31.161 INFO  Sensor HTML [web]
+00:16:31.172 INFO  Sensor HTML [web] (done) | time=11ms
+00:16:31.173 INFO  Sensor JavaScript/TypeScript Coverage [javascript]
+00:16:31.208 INFO  No LCOV files were found using worklenz-frontend/coverage/lcov.info
+00:16:31.208 WARN  No coverage information will be saved because all LCOV files cannot be found.
+00:16:31.208 INFO  Sensor JavaScript/TypeScript Coverage [javascript] (done) | time=35ms
+00:16:31.208 INFO  Sensor IaC Kubernetes Sensor [iac]
+00:16:31.276 INFO  There are no files to be analyzed for the Kubernetes language
+00:16:31.276 INFO  Sensor IaC Kubernetes Sensor [iac] (done) | time=67ms
+00:16:31.276 INFO  Sensor TextAndSecretsSensor [text]
+00:16:31.433 INFO  Available processors: 16
+00:16:31.434 INFO  Using 16 threads for analysis.
+00:16:31.678 INFO  Start fetching files for the text and secrets analysis
+00:16:31.684 INFO  Using Git CLI to retrieve dirty files
+00:16:32.137 INFO  Retrieving language associated files and files included via "sonar.text.inclusions" that are tracked by git
+00:16:32.152 INFO  Starting the text and secrets analysis
+00:16:32.153 INFO  4440 source files to be analyzed for the text and secrets analysis
+00:16:35.882 INFO  4440/4440 source files have been analyzed for the text and secrets analysis
+00:16:35.891 INFO  Sensor TextAndSecretsSensor [text] (done) | time=4615ms
+00:16:35.894 INFO  ------------- Run sensors on project
+00:16:36.039 INFO  Sensor JavaScript/TypeScript/CSS analysis [javascript]
+00:16:36.239 INFO  Detected os: Linux arch: amd64 alpine: false. Platform: LINUX_X64
+00:16:36.240 INFO  Deploy location /opt/sonar-scanner/.sonar/js/node-runtime, tagetRuntime: /opt/sonar-scanner/.sonar/js/node-runtime/node,  version: /opt/sonar-scanner/.sonar/js/node-runtime/version.txt
+00:16:38.570 INFO  Using embedded Node.js runtime.
+00:16:38.570 INFO  Using Node.js executable: '/opt/sonar-scanner/.sonar/js/node-runtime/node'.
+00:16:40.263 INFO  Memory configuration: OS (15906 MB), Node.js (4288 MB).
+00:16:40.271 INFO  gRPC analyze-project server listening on 127.0.0.1:39631
+00:16:40.404 INFO  Plugin version: [14.3.0.46350]
+00:16:41.952 INFO  Some of the project files were automatically excluded because they looked like generated code. Enable debug logging to see which files were excluded. You can disable bundle detection by setting sonar.javascript.detectBundles=false
+00:16:43.329 INFO  Found 3 tsconfig.json file(s): [/usr/src/worklenz-backend/tsconfig.json, /usr/src/worklenz-client-portal/tsconfig.json, /usr/src/worklenz-frontend/tsconfig.json]
+00:18:14.209 INFO  3604 source files to be analyzed
+00:18:14.209 INFO  Creating TypeScript(6.0.3) program with configuration file /usr/src/worklenz-backend/tsconfig.json [lib: lib.es2022.d.ts, lib.dom.d.ts]
+00:18:14.209 INFO  Analyzing 716 file(s) from tsconfig /usr/src/worklenz-backend/tsconfig.json (803 total files in program)
+00:18:14.213 INFO  Creating TypeScript(6.0.3) program with configuration file /usr/src/worklenz-client-portal/tsconfig.json [lib: lib.es2020.d.ts, lib.dom.d.ts, lib.dom.iterable.d.ts]
+00:18:14.214 INFO  Discovered referenced tsconfig: /usr/src/worklenz-client-portal/tsconfig.node.json
+00:18:14.214 INFO  Analyzing 143 file(s) from tsconfig /usr/src/worklenz-client-portal/tsconfig.json (228 total files in program)
+00:18:14.214 INFO  Creating TypeScript(6.0.3) program with configuration file /usr/src/worklenz-frontend/tsconfig.json [lib: lib.dom.d.ts, lib.dom.iterable.d.ts, lib.esnext.d.ts]
+00:18:14.214 INFO  Analyzing 1694 file(s) from tsconfig /usr/src/worklenz-frontend/tsconfig.json (1938 total files in program)
+00:18:14.216 INFO  Hit the cache for 0 out of 3613
+00:18:14.217 INFO  Miss the cache for 3613 out of 3613: ANALYSIS_MODE_INELIGIBLE [3613/3613]
+00:18:14.217 INFO  Sensor JavaScript/TypeScript/CSS analysis [javascript] (done) | time=98178ms
+00:18:14.217 INFO  Sensor IaC Project Sensor [iac]
+00:18:14.219 INFO  Sensor IaC Project Sensor [iac] (done) | time=1ms
+00:18:14.219 INFO  Sensor Zero Coverage Sensor
+00:18:14.228 INFO  Creating TypeScript(6.0.3) program with configuration file /usr/src/worklenz-client-portal/tsconfig.node.json [lib: lib.es2023.d.ts]
+00:18:14.228 INFO  No files to analyze from tsconfig /usr/src/worklenz-client-portal/tsconfig.node.json
+00:18:14.228 INFO  Analyzing 893 file(s) using merged compiler options [lib: lib.es2022.d.ts, lib.dom.d.ts]
+00:18:14.229 INFO  Analyzing 1 file(s) using merged compiler options [lib: lib.es2023.d.ts, lib.dom.d.ts]
+00:18:14.229 INFO  3604/3604 source files have been analyzed
+00:18:14.373 INFO  Sensor Zero Coverage Sensor (done) | time=153ms
+00:18:14.374 INFO  ------------- Gather SCA dependencies on project
+00:18:14.379 INFO  Dependency analysis skipped
+00:18:14.386 INFO  SCM Publisher SCM provider for this project is: git
+00:18:14.388 INFO  SCM Publisher 3792 source files to be analyzed
+00:18:23.710 INFO  SCM Publisher 3792/3792 source files have been analyzed (done) | time=9322ms
+00:18:24.047 INFO  CPD Executor 1185 files had no CPD blocks
+00:18:24.048 INFO  CPD Executor Calculating CPD for 2317 files
+00:18:24.670 INFO  CPD Executor CPD calculation finished (done) | time=622ms
+00:18:24.690 INFO  SCM revision ID '88edbad54c8ac12cd08555b334a7a9b5e42b6a20'
+00:18:25.460 INFO  Analysis report generated in 673ms, dir size=67.0 MB
+00:18:29.159 INFO  Analysis report compressed in 3693ms, zip size=34.7 MB
+00:18:29.583 INFO  Analysis report uploaded in 430ms
+00:18:29.584 INFO  ANALYSIS SUCCESSFUL, you can find the results at: http://sonarqube-experiment:9000/dashboard?id=worklenz
+00:18:29.585 INFO  Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+00:18:29.585 INFO  More about the report processing at http://sonarqube-experiment:9000/api/ce/task?id=3ff96f84-3af6-4519-b6c0-c9cbb9e2b1b7
+00:18:30.461 INFO  Analysis total time: 2:04.965 min
+00:18:30.462 INFO  SonarScanner Engine completed successfully
+00:18:30.510 INFO  EXECUTION SUCCESS
+00:18:30.522 INFO  Total time: 2:07.532s

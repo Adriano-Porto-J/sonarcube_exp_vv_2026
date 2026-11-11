@@ -1,0 +1,16 @@
+metric,idurar,worklenz,formula
+bugs,17,404,
+vulnerabilities,4,13,
+security_hotspots,0,0,
+code_smells,20,917,
+duplicated_lines_density_percent,23.6,4.8,
+coverage,unavailable,unavailable,
+ncloc,20403,472559,
+files,339,3692,
+bugs_per_1000_ncloc,0.833,0.855,(bugs/ncloc)*1000
+code_smells_per_1000_ncloc,0.980,1.941,(code_smells/ncloc)*1000
+vulnerabilities_per_1000_ncloc,0.196,0.028,(vulnerabilities/ncloc)*1000
+quality_gate,OK,OK,
+reliability_rating,E,E,
+security_rating,C,C,
+maintainability_rating,A,A
