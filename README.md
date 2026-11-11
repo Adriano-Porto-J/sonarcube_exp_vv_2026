@@ -13,12 +13,14 @@ Confira se as portas 9090, 27017, 3000, 5000 e 8888 estão livres. Este Compose 
 
 ## 1. Clonar os projetos
 
-Na raiz deste repositório:
+A partir da pasta do experimento:
 
 ```bash
 git clone https://github.com/idurar/idurar-erp-crm.git projects/idurar-erp-crm
 git clone https://github.com/Worklenz/worklenz.git projects/worklenz
 ```
+
+O resultado é `projects/idurar-erp-crm` e `projects/worklenz`. Essas pastas estão no `.gitignore`.
 
 Os commits analisados no relatório são:
 
